@@ -1,0 +1,35 @@
+.Index h1 s {
+    background-color: skyblue; 
+    color: black;
+}
+
+.nombre {
+  background-color: #FFD700; 
+  color: black;              
+  padding: 5px 10px;         
+  border-radius: 5px;        
+  font-weight: bold;          
+}
+.hover-rosa {
+  background-color: black;
+  color: gold;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+
+}
+
+.hover-rosa:hover {
+  background-color: pink;
+}
+
+.hover-azul {
+  background-color: yellow;
+  color: black;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+
+}
+
+.hover-azul:hover {
+  background-color: blue;
+}
