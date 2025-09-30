@@ -61,7 +61,37 @@ background-image: url("../Assets/imagenes/half_life_2_logo.gif");
   width: 240px;
 }
 
-body {
+
+
+
+.container {
+  background-color: blue;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
+  row-gap: 10px ;
+  padding: 20px;
+
+}
+.container > div {
+  background-color: white;
+  text-align: center;
+  }
+
+
+  .nav_grid{
+
+    grid-column-start: 4;
+    grid-column-end: 2;
+  }
+
+  .pepe{
+
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
+  body {
   background-image: url("../Assets/imagenes/fondo_animado.gif");
   background-position: center;
   background-size: 1000px;
