@@ -91,11 +91,6 @@ background-image: url("../Assets/imagenes/half_life_2_logo.gif");
     grid-column-end: 5;
   }
 
-  body {
-  background-image: url("../Assets/imagenes/fondo_animado.gif");
-  background-position: center;
-  background-size: 1000px;
-}
 
 
 .flex_conteiner{
