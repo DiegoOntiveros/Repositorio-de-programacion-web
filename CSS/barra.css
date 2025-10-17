@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'SLNTHLE'; 
+src: url('fonts/SLNTHLE.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.body{
+
+	background-color: #1f2123;
+}
+
+.caja{
+
+	
+  display: flex;
+  padding: 10px; 
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2d2e2f;
+}
+
+.logo  {
+	padding:15px;
+}
+
+.logo img{
+
+	width: 230px;
+	height:auto;
+}
+
+.menu{
+	
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.menu li{
+	color: white;
+	display: inline-block;
+	margin-right: 25px;
+	font-family: 'SLNTHLE', sans-serif;
+	font-size:18px;
+
+}
+
+.imagen {
+
+	transform: scaleX(-1);
+	float: right;
+	margin: 5px;
+	margin-right:40px;
+	transition: transform 0.4s ease;
+}
+
+.imagen:hover{
+
+  transform: scaleX(-1) scale(1.2);
+}
+
+
+
+.Contenido h1{
+	font-family: 'SLNTHLE', sans-serif;
+	margin-top: 45px;
+	color: white;
+	margin-left: 25px;
+	font-size:50px;
+
+
+
+}
+.Contenido p{
+	font-family: 'SLNTHLE', sans-serif;
+	margin-top: 45px;
+	color: white;
+	margin-left: 25px;
+	font-size:25px;
+
+}
+
+
+
+.Titulo{
+	font-family: 'SLNTHLE', sans-serif;
+	color: white;
+	font-size: 40px;
+
+
+}
+.fila{
+
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	font-size: 20px;
+
+}
+figcaption h2 { color: white; font-size: 40px; margin: 0; }
+figcaption p { color: white; font-size: 20px; margin-top: 10px; }
+
+
+.Portadas{
+
+	width: 250px !important;
+	height: auto;
+	margin-left:25px;
+	color: white;
+
+	transition: transform 0.4s ease;
+}
+
+.Portadas:hover{
+
+  transform: scale(1.2);
+}
+
+

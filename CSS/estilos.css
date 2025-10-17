@@ -1,0 +1,142 @@
+.Index h1 s {
+    background-color: skyblue; 
+    color: black;
+}
+
+.nombre {
+  background-color: #FFD700; 
+  color: black;              
+  padding: 5px 10px;         
+  border-radius: 5px;        
+  font-weight: bold;          
+}
+.hover-rosa {
+  background-color: black;
+  color: gold;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+  border-style: groove;
+  border-color: green;
+
+
+}
+
+.hover-rosa:hover {
+  background-color: pink;
+}
+
+.hover-azul {
+  background-color: yellow;
+  color: black;
+  padding: 50px;
+  transition: background-color 0.3s ease;
+
+}
+
+.hover-azul:hover {
+  background-color: blue;
+
+}
+
+.ejemplo {
+
+border: 50px;
+border-style: double;
+border-color: hotpink;
+border-radius: 40px;
+background-image: url("../Assets/imagenes/half_life_2_logo.gif");
+  background-position: center;
+}
+
+.margin {
+
+  margin: 50px;
+  padding: 20px;
+  color: brown;
+
+}
+
+#img{
+
+  width: 240px;
+}
+
+
+
+
+.container {
+  background-color: blue;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
+  row-gap: 10px ;
+  padding: 20px;
+
+}
+.container > div {
+  background-color: white;
+  text-align: center;
+  }
+
+
+  .nav_grid{
+
+    grid-column-start: 4;
+    grid-column-end: 2;
+  }
+
+  .pepe{
+
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
+
+
+.flex_conteiner{
+
+display: flex;
+background-color: pink;
+justify-content: center;
+margin: 10px;
+padding: 10px;
+font-size: 10px;
+flex-direction: row;
+
+}
+
+.flex_conteiner div{
+
+background-color: pink;
+margin: 10px;
+padding: 10px;
+font-size: 30px;
+
+}
+
+@media print {
+
+
+  
+
+  .my_photo{
+
+    display: none;
+  }
+}
+
+@media screen and( min-width: 795px) and ( max-width: 1024px){
+
+  #my_photo{
+    width: 50%;
+  }
+}
+@media screen and( min-width: 480px) and ( max-width: 768px){
+
+.my_photo{
+
+  width: 80%;
+}
+
+}
+
