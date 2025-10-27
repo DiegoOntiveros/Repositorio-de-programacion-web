@@ -1,0 +1,73 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet"  href="../CSS/formulario.css">
+		<title>formulario</title>
+	</head>
+	<body>
+
+		<div class="contenido">
+			
+
+	<label>
+		Nombres:
+	</label>
+	<br>
+	<input type="text" name="name" placeholder="Escribe aqui"
+	 onkeypress = "return onlyLetters(event)">
+	<br>
+	<br>
+	<label>
+		Apellidos:
+	</label>
+	<br>
+	<input type="text" name="name" placeholder="Escribe aqui"
+	onkeypress = "return onlyLetters(event)">
+	<br>
+	<br>
+	<label>
+		Telefono:
+	</label>
+	<br>
+	<input type="text" name="name" placeholder="Escribe aqui"
+	onkeypress="return Telefono(event)">
+	<br>
+	<br>
+	<label>
+		Correo:
+	</label>
+	<br>
+	<input type="text" name="name" placeholder="Escribe aqui"
+	onkeypress = "return validarEmail(event)">
+	<br>
+	<br>
+	<label>
+		Genero:
+	</label>
+	<br>
+
+	<label>
+		Hombre
+	</label>
+	<input type="radio" name="Genero" value="Hombre">
+	<br>
+	<label>
+		mujer	
+	</label>
+	<input type="radio" name="Genero" value="Mujer">
+	<br>
+	<br>
+	<label>
+		Biografia:
+	</label>
+	<textarea></textarea>
+	<br>
+	<br>
+	<button>Guardar</button>
+		</div>
+
+	<script src="../Assets/Js/main.js"></script>
+	</body>
+	</html>
