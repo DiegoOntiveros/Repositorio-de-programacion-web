@@ -9,6 +9,8 @@ function getTask() {
 
 	window.localStorage.setItem("tasks", JSON.stringify(tasks));
 	updateTodoList();
+
+	
 	return false;
 }
 
