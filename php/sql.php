@@ -1,19 +1,22 @@
-<?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
+<?php 
 
-$host = "localhost";
-$usuario = "pepe";
-$clave = "12345";
-$baseDeDatos = "usuarios";
+class ConnectionController{
 
-$conn = new mysqli($host, $usuario, $clave, $baseDeDatos);
+    private $HOST = "localhost";
+    private $USER = "pepe";
+    private $PASS = "12345";
+    private $DBNM = "usuarios";
 
-if ($conn->connect_error) {
-    die("Error: " . $conn->connect_error);
-} else {
-    echo " Conexión exitosa a la base de datos!";
+    function connect()
+    {
+        $conn = new mysqli($this->HOST,$this->USER,$this->PASS,$this->DBNM);
+
+        if ($conn) {
+            return $conn;
+        }
+        return null;
+    }
+
 }
 
-$conn->close();
 ?>

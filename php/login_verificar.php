@@ -42,7 +42,7 @@ if ($resultado->num_rows > 0) {
         
         echo "<script>
             alert('Bienvenido " . $usuario_db['usuario'] . "!');
-            window.location.href='../views/barra.html';
+            window.location.href='../views/inicio.php';
         </script>";
     } else {
         echo "<script>
